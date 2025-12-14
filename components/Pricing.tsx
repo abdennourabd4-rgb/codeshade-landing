@@ -68,8 +68,8 @@ const Pricing = () => {
             <div
               key={tier.name}
               className={`relative flex flex-col rounded-3xl p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${tier.mostPopular
-                  ? 'bg-white border-2 border-primary ring-4 ring-blue-50'
-                  : 'bg-white border border-gray-200'
+                ? 'bg-white border-2 border-primary ring-4 ring-blue-50'
+                : 'bg-white border border-gray-200'
                 }`}
             >
               {tier.mostPopular && (
@@ -107,8 +107,8 @@ const Pricing = () => {
               <Link
                 href="/signup"
                 className={`block w-full rounded-xl px-6 py-4 text-center text-sm font-bold transition-all ${tier.mostPopular
-                    ? 'bg-primary text-white hover:bg-blue-700 shadow-lg shadow-blue-500/30'
-                    : 'bg-gray-50 text-gray-900 hover:bg-gray-100 border border-gray-200'
+                  ? 'bg-primary text-white hover:bg-blue-700 shadow-lg shadow-blue-500/30'
+                  : 'bg-gray-50 text-gray-900 hover:bg-gray-100 border border-gray-200'
                   }`}
               >
                 {tier.cta}

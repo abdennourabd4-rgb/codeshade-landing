@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden pt-16 pb-20 lg:pt-[173px] lg:pb-28">
+    <section className="relative overflow-hidden pt-[20px] pb-20 lg:pt-[20px] lg:pb-28">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8 flex flex-col items-center">
 
         {/* 1. MAIN HEADLINE 
@@ -54,7 +54,7 @@ const Hero = () => {
             <img
               src="/assets/heroimage.png"
               alt="Codeshade Dashboard Interface"
-              className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full h-auto"
+              className="rounded-xl w-full h-auto"
             />
           </div>
 
