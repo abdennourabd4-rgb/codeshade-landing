@@ -59,7 +59,7 @@ const Pricing = () => {
             أسعار <span className="text-primary">مدروسة للجميع</span>
           </h2>
           <p className="text-lg text-gray-600">
-            خلص مرة في العام، وتهنى من التكسار الراس.
+            خلص مرة في العام ولا شهر، وتهنى من تكسار الراس.
           </p>
         </div>
 

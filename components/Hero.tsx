@@ -39,7 +39,7 @@ const Hero = () => {
         */}
         <div className="flex items-center justify-center mb-16 w-full">
           <Link
-            href="#demo"
+            href="#features"
             className="flex items-center justify-center w-[154px] h-[38px] bg-[#3076DA] rounded-[10px] text-[16px] font-semibold text-white hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/30"
           >
             شوف ديمو
