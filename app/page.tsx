@@ -2,8 +2,10 @@ import Hero from "@/components/Hero";
 import TargetAudience from "@/components/TargetAudience";
 import Features from "@/components/Features";
 import DashboardStats from "@/components/DashboardStats";
+import Platforms from "@/components/Platforms";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
+
 
 
 export default function Home() {
@@ -34,6 +36,7 @@ export default function Home() {
       <TargetAudience />
       <Features />
       <DashboardStats />
+      <Platforms />
       <Pricing />
       <Footer />
       <script
