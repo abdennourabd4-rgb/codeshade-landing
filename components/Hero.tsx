@@ -14,7 +14,7 @@ const Hero = () => {
             - Letter Spacing: -0.05em
             - Color: #1E293B
         */}
-        <h1 className="mx-auto text-center font-bold text-4xl md:text-[62px] leading-[85px] tracking-[-0.05em] text-[#1E293B] mb-6 max-w-[881px]">
+        <h1 className="mx-auto text-center font-extrabold text-5xl md:text-[62px] leading-[1.2] md:leading-[85px] tracking-[-0.05em] text-[#1E293B] mb-6 max-w-[881px]">
           واش خّو، عييت مّلّ <br />
           <span className="text-[#3076DA]">لّوجيسيال ثقيل</span> و كومبليكي؟
         </h1>
