@@ -11,7 +11,7 @@ const audiences = [
   },
   {
     name: 'بيسري',
-    icon: '/assets/carticon.svg',
+    icon: '/assets/cartIcon.svg',
   },
 ];
 
