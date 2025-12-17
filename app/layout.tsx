@@ -58,10 +58,7 @@ export const metadata: Metadata = {
     description: "Gérez votre stock et vos ventes facilement.",
     images: ['/assets/heroimage.png'],
   },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
-  },
+
 };
 
 export default function RootLayout({
