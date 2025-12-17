@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ScrollAnimation from "./ScrollAnimation";
 
 const Features = () => {
   return (
@@ -8,7 +9,7 @@ const Features = () => {
         {/* FEATURE 1: Video Left, Text Right */}
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24 mb-32">
           {/* Video Side */}
-          <div className="w-full lg:w-1/2 relative">
+          <ScrollAnimation animation="slide-right" className="w-full lg:w-1/2 relative">
             <div className="absolute -inset-4 bg-orange-500/20 blur-2xl rounded-full opacity-50"></div>
 
             {/* VIDEO TAG */}
@@ -22,10 +23,10 @@ const Features = () => {
               <source src="/assets/Demo1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </ScrollAnimation>
 
           {/* Text Side */}
-          <div className="w-full lg:w-1/2 text-left">
+          <ScrollAnimation animation="slide-left" className="w-full lg:w-1/2 text-left">
             <div className="mb-4 inline-flex items-center rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-600">
               سريع
             </div>
@@ -51,13 +52,13 @@ const Features = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </ScrollAnimation>
         </div>
 
         {/* FEATURE 2: Text Left, Video Right */}
         <div className="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
           {/* Video Side */}
-          <div className="w-full lg:w-1/2 relative">
+          <ScrollAnimation animation="slide-left" className="w-full lg:w-1/2 relative">
             <div className="absolute -inset-4 bg-blue-500/20 blur-2xl rounded-full opacity-50"></div>
 
             {/* VIDEO TAG */}
@@ -71,10 +72,10 @@ const Features = () => {
               <source src="/assets/Demo2.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </ScrollAnimation>
 
           {/* Text Side */}
-          <div className="w-full lg:w-1/2 text-left">
+          <ScrollAnimation animation="slide-right" className="w-full lg:w-1/2 text-left">
             <div className="mb-4 inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-600">
               منظم
             </div>
@@ -90,7 +91,7 @@ const Features = () => {
             <Link href="/features" className="text-primary font-bold hover:text-blue-700 hover:underline">
               اكتشف المزيد &larr;
             </Link>
-          </div>
+          </ScrollAnimation>
         </div>
 
       </div>

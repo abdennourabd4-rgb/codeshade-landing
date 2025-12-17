@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ScrollAnimation from "./ScrollAnimation";
 
 const tiers = [
   {
@@ -54,19 +55,23 @@ const Pricing = () => {
     <section id="pricing" className="py-16 md:py-24 bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
-            أسعار <span className="text-primary">مدروسة للجميع</span>
-          </h2>
-          <p className="text-lg text-gray-600">
-            خلص مرة في العام ولا شهر، وتهنى من تكسار الراس.
-          </p>
-        </div>
+        <ScrollAnimation animation="fade-up">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+              أسعار <span className="text-primary">مدروسة للجميع</span>
+            </h2>
+            <p className="text-lg text-gray-600">
+              خلص مرة في العام ولا شهر، وتهنى من تكسار الراس.
+            </p>
+          </div>
+        </ScrollAnimation>
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          {tiers.map((tier) => (
-            <div
+          {tiers.map((tier, index) => (
+            <ScrollAnimation
               key={tier.name}
+              animation="scale-up"
+              delay={index * 0.1}
               className={`relative flex flex-col rounded-3xl p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${tier.mostPopular
                 ? 'bg-white border-2 border-primary ring-4 ring-blue-50'
                 : 'bg-white border border-gray-200'
@@ -113,7 +118,7 @@ const Pricing = () => {
               >
                 {tier.cta}
               </Link>
-            </div>
+            </ScrollAnimation>
           ))}
         </div>
 
