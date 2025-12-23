@@ -17,7 +17,7 @@ const arabicFont = IBM_Plex_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://codeshade-landing.vercel.app/'), // Replace with your actual domain when you have it (e.g., .vercel.app)
+  metadataBase: new URL('https://codeshade.app'),
   title: {
     default: "Codeshade POS | أفضل برنامج تسيير المحلات في الجزائر",
     template: "%s | Codeshade"
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Codeshade POS | تحكم في تجارتك بسهولة",
     description: "البرنامج رقم 1 في الجزائر لتسيير نقاط البيع. جرب النسخة المجانية اليوم!",
-    url: 'https://codeshade.dz',
+    url: 'https://codeshade.app',
     siteName: 'Codeshade',
     images: [
       {
@@ -59,7 +59,20 @@ export const metadata: Metadata = {
     description: "Gérez votre stock et vos ventes facilement.",
     images: ['/assets/heroimage.png'],
   },
-
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  // verification: {
+  //   google: 'YOUR_VERIFICATION_CODE',
+  // },
 };
 
 export default function RootLayout({

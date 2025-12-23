@@ -5,8 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/private/', 
+      disallow: '/private/',
     },
-    sitemap: 'https://codeshade-landing.vercel.app/sitemap.xml',
+    sitemap: 'https://codeshade.app/sitemap.xml',
   };
 }
