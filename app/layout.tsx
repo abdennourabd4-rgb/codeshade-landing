@@ -59,6 +59,11 @@ export const metadata: Metadata = {
     description: "Gérez votre stock et vos ventes facilement.",
     images: ['/assets/heroimage.png'],
   },
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   robots: {
     index: true,
     follow: true,
