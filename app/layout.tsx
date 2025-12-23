@@ -22,8 +22,9 @@ export const metadata: Metadata = {
     default: "Codeshade POS | أفضل برنامج تسيير المحلات في الجزائر",
     template: "%s | Codeshade"
   },
-  description: "Logiciel de gestion de stock et caisse (POS) pour les magasins en Algérie.برنامج تسيير المحلات التجارية: سوبرات، كوسميتيك، ومكتبات. سهل، سريع،.",
+  description: "Le meilleur logiciel de gestion en Algérie. Logiciel de gestion de stock et caisse (POS) pour les magasins en Algérie. برنامج تسيير المحلات التجارية.",
   keywords: [
+    "Le meilleur logiciel de gestion en Algérie",
     "Logiciel de gestion Algérie",
     "POS System Algeria",
     "برنامج تسيير المحلات",

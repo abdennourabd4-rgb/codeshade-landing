@@ -27,7 +27,7 @@ export default function Home() {
       ratingValue: '4.8',
       ratingCount: '120',
     },
-    description: 'Best POS software for Algerian retailers. Manage stock, sales, and customers easily.',
+    description: 'Le meilleur logiciel de gestion en Algérie. Best POS software for Algerian retailers. Manage stock, sales, and customers easily.',
   };
 
   return (

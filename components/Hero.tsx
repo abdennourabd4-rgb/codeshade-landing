@@ -18,7 +18,7 @@ const Hero = () => {
         {/* 2. SUBHEADLINE */}
         <ScrollAnimation animation="fade-up" delay={0.1}>
           <p className="mx-auto text-center text-[18px] leading-[25px] font-normal text-[#000000] mb-10 max-w-[508px]">
-            خفيف، ساهل، و مخدوم لإحتياجات أصحاب محلات التجزئة. ساهل للخدامين و أصحاب المحلات
+            خفيف، ساهل، و مخدوم لإحتياجات أصحاب محلات التجزئة. اكتشف Le meilleur logiciel de gestion en Algérie
           </p>
         </ScrollAnimation>
 

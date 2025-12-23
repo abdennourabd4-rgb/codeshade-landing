@@ -64,7 +64,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm leading-6 text-gray-600 max-w-xs">
-              برنامج تسيير المحلات التجارية رقم 1 في الجزائر. سهل، سريع، ويخليك تخدم مرتاح.
+              برنامج تسيير المحلات التجارية رقم 1 في الجزائر. Le meilleur logiciel de gestion en Algérie.
             </p>
             <div className="flex space-x-6 gap-4">
               {navigation.social.map((item) => (
